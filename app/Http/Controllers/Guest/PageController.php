@@ -8,7 +8,7 @@ use App\Models\Train;
 
 class PageController extends Controller
 {
-    public function trains(){
+    public function index(){
         $trains = Train::all();
         dump($trains);
         return view('home', compact('trains'));
