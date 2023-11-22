@@ -11,7 +11,7 @@
 </head>
 <body>
 @include('partials.header')
-    <div class="container my-5">
+    <div class="container my-5 d-flex flex-wrap gap-5">
         @yield('content')
     </div>
 @include('partials.footer')
